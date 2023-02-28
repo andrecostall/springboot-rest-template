@@ -1,8 +1,14 @@
 # springboot-rest-template
-Projeto springboot, consumindo API CEP com rest-template
 
-## Acessar http://127.0.0.1:8080/api/cep/ do seu browser ou através da linha de comando utilizando curl
+Projeto springboot, consumindo webservice de CEP com rest-template
+Site consumido: https://viacep.com.br/
 
+Exemplo de pesquisa por CEP:  
+http://127.0.0.1:8080/api/cep/
 ```
-curl -v  http://127.0.0.1:8080/api/cep/000000000
+curl -v  http://127.0.0.1:8080/api/cep/99999999
 ```
+
+### Tecnologias utilizadas:
+- Java 17
+- Spring Boot 3.0
